@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+header {
+    width: 1440px;
+    height: 120px;
+    background: linear-gradient(180deg, #7CD235 0%, #2BB34F 100%);
+    display: flex;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: normal;
+}

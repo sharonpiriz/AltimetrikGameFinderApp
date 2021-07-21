@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+main section {
+    display: flex;
+    width: 1083px;
+    height: 660px;
+    margin: 100px auto;
+}
+
+main section .login_container {
+    background-color: #303030;
+    width: 630px;
+    border-radius: 10px 0 0 10px;
+}
+
+main section .img_container {
+    background-color: rgba(102, 158, 17, 0.795);
+    width: 453px;
+}
+
+.formulario-login {
+    width: 100%;
+}
+
+main section div h1 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 34px;
+    text-align: center;
+    letter-spacing: 2.8px;
+}
+
+
+/*------------------ FORMULARIO ------------------*/
+
+main section .login_container form {
+    width: 330px;
+    margin: 0 auto;
+}
+
+
+/********** Input ************/
+
+main section .login_container input[type="text"],
+main section .login_container input[type="password"] {
+    width: 278px;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+    border-left: 1px solid #8F8F8F;
+    text-indent: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #303030;
+}
+
+main section .login_container input[type="password"] {
+    width: 244px !important;
+}
+
+main section .login_container input[type="text"]:focus,
+main section .login_container input[type="password"]:focus {
+    outline: none;
+}
+
+.contenedor-input-txt input[type="checkbox"],
+.contenedor-input-txt input[type="checkbox"]:checked {
+    appearance: none;
+    width: 20px;
+    height: 13.75px;
+    margin: 20px 14px 0 0;
+}
+
+.contenedor-input-txt input[type="checkbox"] {
+    background-image: url(img/showpass.svg);
+}
+
+.contenedor-input-txt input[type="checkbox"]:checked {
+    background-image: url(img/hidepass.svg);
+}
+
+.contenedor-input-txt {
+    width: 330px;
+    height: 52px;
+    display: flex;
+    margin: 25px 0;
+    border: 1px solid #8F8F8F;
+    border-radius: 8px;
+}
+
+.contenedor-icono {
+    width: 20px;
+    background-repeat: no-repeat;
+    margin: 0 auto 0;
+}
+
+.imagen-icono-1 {
+    background-image: url(img/avatar.svg);
+    margin-top: 15px;
+}
+
+.imagen-icono {
+    background-image: url(img/key.svg);
+    margin-top: 22px;
+}
+
+
+/********** Checkbox / Btn login ************/
+
+main section .login_container .container-checkbox-btnlogin input[type="submit"] {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #7CD235 0%, #2BB34F 100%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main section .login_container .container-checkbox-btnlogin label {
+    color: #8F8F8F;
+    font-size: 14px;
+}
+
+main section .login_container .container-checkbox-btnlogin input[type=checkbox] {
+    appearance: none;
+    border: 1px solid #8F8F8F;
+    border-radius: 4px;
+}
+
+main section .login_container .container-checkbox-btnlogin input[type=checkbox]:checked {
+    appearance: auto;
+}
+
+.container-checkbox-btnlogin {
+    display: grid;
+    grid-template-columns: 30px auto 100px;
+    height: 40px;
+    align-items: center;
+}
+
+#input-checkbox {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+/********** <a> register ************/
+
+.register {
+    margin-top: 15px;
+}
+
+.register a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.forgot-password {
+    margin-left: 125px;
+}
+
+
+/********** SEPARADOR ************/
+
+.separador {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    margin: 47px auto 0;
+    justify-content: space-between;
+}
+
+.separador p {
+    width: 61px;
+    height: 19px;
+    text-align: center;
+    line-height: 20px;
+}
+
+hr {
+    width: 134px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #ffffff;
+}
+
+
+/*------------ BOTONES DE REDES -----------*/
+
+.contenedor-btn-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.btn-red {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.img-red {
+    width: 20px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin: auto auto;
+}
+
+.contenedor-btn-redes input[type="submit"] {
+    border: none;
+    border-radius: 0 8px 8px 0;
+    width: 193px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+    text-indent: 2em;
+    cursor: pointer;
+}
+
+
+/****** Facebook ******/
+
+#btn-facebook {
+    background-color: #3B5998;
+}
+
+.background-fb {
+    background-color: #263C68;
+}
+
+.imagen-icono-fb {
+    background-image: url(img/FB.svg);
+}
+
+
+/******* Twitter *******/
+
+#btn-twitter {
+    background-color: #00ACED;
+}
+
+.background-tw {
+    background-color: #0695CB;
+}
+
+.imagen-icono-tw {
+    background-image: url(img/TW.svg);
+}
+
+
+/******* Google *******/
+
+#btn-google {
+    background-color: #C7C7C7;
+}
+
+.background-gg {
+    background-color: #9D9D9D;
+}
+
+.imagen-icono-gg {
+    background-image: url(img/G.svg);
+}
+
+
+/*------------ IMAGEN -----------*/
+
+.img_container {
+    background-image: url(img/Bitmap.svg);
+    border-radius: 0 10px 10px 0;
+}
