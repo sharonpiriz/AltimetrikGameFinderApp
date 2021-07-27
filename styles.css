@@ -53,7 +53,7 @@ main section .login_container form {
 
 main section .login_container input[type="text"],
 main section .login_container input[type="password"] {
-    width: 278px;
+    width: 244px;
     border-radius: 0 8px 8px 0;
     border-style: none;
     border-left: 1px solid #8F8F8F;
@@ -63,13 +63,13 @@ main section .login_container input[type="password"] {
     background-color: #303030;
 }
 
-main section .login_container input[type="password"] {
-    width: 244px !important;
-}
-
 main section .login_container input[type="text"]:focus,
 main section .login_container input[type="password"]:focus {
     outline: none;
+}
+
+#username-email {
+    width: 278px;
 }
 
 .contenedor-input-txt input[type="checkbox"],
@@ -78,6 +78,7 @@ main section .login_container input[type="password"]:focus {
     width: 20px;
     height: 13.75px;
     margin: 20px 14px 0 0;
+    cursor: pointer;
 }
 
 .contenedor-input-txt input[type="checkbox"] {
